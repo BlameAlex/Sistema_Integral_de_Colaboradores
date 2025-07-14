@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Integracion | Conocimientos</title>
+  <link href="../public/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="icon" href="../assets/SIC_cube.png" type="image/png">
+</head>
+<body class="bg-dark text-white">
+  <div 
+    class="min-vh-100"
+    style="background: url('../assets/UT_pattern_bg.png') 
+          no-repeat center center fixed; background-size: cover;
+          background-color: rgba(0, 0, 0, 0.3);
+          background-blend-mode: overlay;"
+  >
+    <header class="col-lg-12">
+        <div class="shadow-lg p-3" style="width: 100%; background-color: white; border-bottom: 2px solid #3b3b3b;">
+            <h1 class="text-center text-uppercase" style="color: #009650;">Conocimientos</h1>
+        </div>
+    </header>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-12">
+          <div class="shadow-lg p-4" style="background-color:whitesmoke">
+            <form class="d-grid gap-2">
+
+              <div class="d-flex align-items-md-center" style="color: black;">
+                <div>
+                  <label for="n_anios" style="color: black;">Años de experiencia laboral</label>
+                </div>
+                <div class="ms-3" style="width: 100px;">
+                  <input type="number" id="n_anios" name="n_anios" class="form-control" placeholder="0" required/>
+                </div>
+              </div>
+
+              <!--/////////////// Agregar Documento que avala ///////////////-->
+            
+              <div class="d-flex align-items-md-center justify-content-around" style="color: black;">  
+                <div class="col m-2">
+                  <label for="paquete_computacion" style="color: black;">Paquete de computación que domina</label>
+                  <input type="text" id="paquete_computacion" name="paquete_computacion" class="form-control" placeholder="Excel" required>
+                  
+                  <!-- SEPARADOR "+"-->
+                  <div class="d-flex align-items-center mt-2">
+                    <hr class="flex-grow-1" style="color: #3b3b3b;">
+                    <span class="px-3">
+                      <button type="button" class="btn btn-secondary rounded-circle" onclick="/* Function to clone the previous section */">+</button>
+                    </span>
+                    <hr class="flex-grow-1" style="color: #3b3b3b;">
+                  </div>
+                </div>
+                <div class="col m-2">
+                  <label for="lenguaje_computacion" style="color: black;">Lenguaje de computación que domina</label>
+                  <input type="text" id="lenguaje_computacion" name="lenguaje_computacion" class="form-control" placeholder="Python" required>
+
+                  <!-- SEPARADOR "+"-->
+                  <div class="d-flex align-items-center mt-2">
+                    <hr class="flex-grow-1" style="color: #3b3b3b;">
+                    <span class="px-3">
+                      <button type="button" class="btn btn-secondary rounded-circle" onclick="/* Function to clone the previous section */">+</button>
+                    </span>
+                    <hr class="flex-grow-1" style="color: #3b3b3b;">
+                  </div>
+                </div>
+              </div>
+              
+              <div class="d-flex" >
+                <div class="flex-grow-1 me-3">
+                  <label for="lenguajes" style="color: black;">Lengua que domina</label>
+                  <input type="text" id="lenguaje_computacion" name="lenguaje_computacion" class="form-control" placeholder="Ingles" required>
+                </div>
+                <div class="flex-grow-1">  
+                  <label for="lenguajes" style="color: black;">Nivel de dominio</label>
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="ddidiomas" data-bs-toggle="dropdown" aria-expanded="false">
+                      Seleccionar
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="ddidiomas">
+                      <a class="dropdown-item" href="#" onclick="actualizarDD('Bajo','ddidiomas')">Bajo</a>
+                      <a class="dropdown-item" href="#"onclick="actualizarDD('Medio','ddidiomas')">Medio</a>
+                      <a class="dropdown-item" href="#"onclick="actualizarDD('Alto','ddidiomas')">Alto</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- SEPARADOR "+"-->
+              <div class="d-flex align-items-center mt-2">
+                <hr class="flex-grow-1" style="color: #3b3b3b;">
+                <span class="px-3">
+                  <button type="button" class="btn btn-secondary rounded-circle" onclick="/* Function to clone the previous section */">+</button>
+                </span>
+                <hr class="flex-grow-1" style="color: #3b3b3b;">
+              </div>
+
+              <div class="d-flex" style="color: black;">
+                <label for="lengua_indigena">Lengua Indigena</label>
+                <div class="form-check ms-3">
+                    <input class="form-check-input" type="radio" name="OpcionesLenguaIndigena" id="opcion1">
+                    <label class="form-check-label" for="opcion1">Si</label>
+                </div>
+                <div class="form-check ms-3 me-5">
+                  <input class="form-check-input" type="radio" name="OpcionesLenguaIndigena" id="opcion2">
+                  <label class="form-check-label" for="opcion2">No</label>
+                </div>
+              </div>
+              <div class="d-flex align-items-md-center" style="color: black;">
+                <label for="cual_lengua_indigena">¿Cual?</label>
+                <input type="text" id="cual_lengua_indigena" name="cual_lengua_indigena" class="form-control ms-3 w-25" placeholder="Escriba aqui..." required/>
+              </div>
+
+              <button type="submit" class="btn btn-primary w-25 ms-auto mt-4">Continuar</button>
+            </form>  
+          </div>      
+        </div>
+      </div>
+    </div>
+  </div>  
+  <script src="../public/js/bootstrap.bundle.min.js"> </script>
+  <script>
+    function actualizarDD(valor,id) {
+      // Actualiza el texto del botón
+      document.getElementById(id).textContent = valor;
+    }
+  </script>
+</body>
+</html>
