@@ -1,0 +1,49 @@
+@{
+    ViewData["Title"] = "Experiencia Docente";
+    ViewData["Header"] = "Experiencia Docente";
+    Layout = "_LayoutIntegracion";
+}
+
+<div class="d-flex align-items-md-center" style="color: black;">
+  <label for="cuenta_con_trayectoria_docente">¿Cuenta con trayectoria docente?</label>
+  <div class="form-check ms-3">
+    <input class="form-check-input" type="radio" name="OpcionesEstudia" id="estudia_si">
+    <label class="form-check-label" for="estudiasi">Si</label>
+  </div>
+  <div class="form-check ms-3 me-5">
+    <input class="form-check-input" type="radio" name="OpcionesEstudia" id="estudia_no">
+    <label class="form-check-label" for="estudia_no">No</label>
+  </div>
+  <label for="imparte_clases">¿Imparte clases actualmente?</label>
+  <div class="form-check ms-3">
+    <input class="form-check-input" type="radio" name="OpcionesImparteClases" id="imparte_clases_si">
+    <label class="form-check-label" for="imparte_clases_si">Si</label>
+  </div>
+  <div class="form-check ms-3">
+    <input class="form-check-input" type="radio" name="OpcionesImparteClases" id="imparte_clases_no">
+    <label class="form-check-label" for="imparte_clases_no">No</label>
+  </div>
+</div>
+
+<div class="d-flex align-items-center" style="color: black;">
+  <label for="n_anios">Años de experiencia</label>
+  <input type="number" id="anios_exp_docente" name="n_anios" class="form-control ms-3" style="width: 100px;" placeholder="0" required/>
+</div>
+
+<div class="d-flex align-items-md-center" style="color: black;">
+  <label for="nvl_educativo">Nivel Educativo</label>
+  <input class="form-check-input ms-3" type="radio" name="OpcionesNvlEducativo" id="nvl_edu_basica">
+  <label class="form-check-label ms-1" for="nvl_edu_basica">Basica</label>
+  <input class="form-check-input ms-3" type="radio" name="OpcionesNvlEducativo" id="nvl_edu_mediasuperior">
+  <label class="form-check-label ms-1" for="nvl_edu_mediasuperior">Media Superior</label>
+  <input class="form-check-input ms-3" type="radio" name="OpcionesNvlEducativo" id="nvl_edu_superior">
+  <label class="form-check-label ms-1" for="nvl_edu_superior">Superior</label>
+  <input class="form-check-input ms-3" type="radio" name="OpcionesNvlEducativo" id="nvl_edu_posgrados">
+  <label class="form-check-label ms-1" for="nvl_edu_posgrados">Posgrados</label>
+</div>
+
+<div class="mt-1"></div>
+<label for="situacion_laboral" style="color: black;">Situación en el trabajo relacionada con su ejercicio profesional</label>
+<input type="text" id="situacion_laboral" name="situacion_laboral" class="form-control" placeholder="Escriba aqui..." required/>
+
+<button type="submit" class="btn btn-primary w-25 ms-auto mt-4">Continuar</button>

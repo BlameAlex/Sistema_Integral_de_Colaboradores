@@ -1,0 +1,81 @@
+@{
+    ViewData["Title"] = "Conocimientos";
+    ViewData["Header"] = "Conocimientos";
+    Layout = "_LayoutIntegracion";
+}
+
+<div class="d-flex align-items-md-center justify-content-around" style="color: black;">  
+  <div class="col m-2">
+    <label for="paquete_computacion" style="color: black;">Paquete de computación que domina</label>
+    <input type="text" id="paquete_computacion" name="paquete_computacion" class="form-control" placeholder="Excel" required>
+    
+    <!-- SEPARADOR "+"-->
+    <div class="d-flex align-items-center mt-2">
+      <hr class="flex-grow-1" style="color: #3b3b3b;">
+      <span class="px-3">
+        <button type="button" class="btn btn-secondary rounded-circle" onclick="/* Function to clone the previous section */">+</button>
+      </span>
+      <hr class="flex-grow-1" style="color: #3b3b3b;">
+    </div>
+  </div>
+  <div class="col m-2">
+    <label for="lenguaje_computacion" style="color: black;">Lenguaje de computación que domina</label>
+    <input type="text" id="lenguaje_computacion" name="lenguaje_computacion" class="form-control" placeholder="Python" required>
+
+    <!-- SEPARADOR "+"-->
+    <div class="d-flex align-items-center mt-2">
+      <hr class="flex-grow-1" style="color: #3b3b3b;">
+      <span class="px-3">
+        <button type="button" class="btn btn-secondary rounded-circle" onclick="/* Function to clone the previous section */">+</button>
+      </span>
+      <hr class="flex-grow-1" style="color: #3b3b3b;">
+    </div>
+  </div>
+</div>
+
+<div class="d-flex" >
+  <div class="flex-grow-1 me-3">
+    <label for="idioma" style="color: black;">Idioma que domina</label>
+    <input type="text" id="idioma" name="idioma" class="form-control" placeholder="Ingles" required>
+  </div>
+  <div class="flex-grow-1">  
+    <label for="lenguajes" style="color: black;">Nivel de dominio</label>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="nivel_idioma" data-bs-toggle="dropdown" aria-expanded="false">
+        Seleccionar
+      </button>
+      <div class="dropdown-menu" aria-labelledby="nivel_idioma">
+        <button class="dropdown-item" type="button" onclick="actualizarDD('Bajo','nivel_idioma')">Bajo</button>
+        <button class="dropdown-item" type="button" onclick="actualizarDD('Medio','nivel_idioma')">Medio</button>
+        <button class="dropdown-item" type="button" onclick="actualizarDD('Alto','nivel_idioma')">Alto</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SEPARADOR "+"-->
+<div class="d-flex align-items-center mt-2">
+  <hr class="flex-grow-1" style="color: #3b3b3b;">
+  <span class="px-3">
+    <button type="button" class="btn btn-secondary rounded-circle" onclick="/* Function to clone the previous section */">+</button>
+  </span>
+  <hr class="flex-grow-1" style="color: #3b3b3b;">
+</div>
+
+<div class="d-flex" style="color: black;">
+  <label for="lengua_indigena">Lengua Indigena</label>
+  <div class="form-check ms-3">
+      <input class="form-check-input" type="radio" name="OpcionesLenguaIndigena" id="lengua_indigena_si">
+      <label class="form-check-label" for="lengua_indigena_si">Si</label>
+  </div>
+  <div class="form-check ms-3 me-5">
+    <input class="form-check-input" type="radio" name="OpcionesLenguaIndigena" id="lengua_indigena_no">
+    <label class="form-check-label" for="lengua_indigena_no">No</label>
+  </div>
+</div>
+<div class="d-flex align-items-md-center" style="color: black;">
+  <label for="cual_lengua_indigena">¿Cual?</label>
+  <input type="text" id="lengua_indigena" name="cual_lengua_indigena" class="form-control ms-3 w-25" placeholder="Escriba aqui..." required/>
+</div>
+
+<button type="submit" class="btn btn-primary w-25 ms-auto mt-4">Continuar</button>

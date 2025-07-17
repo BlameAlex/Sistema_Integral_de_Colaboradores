@@ -2,3 +2,8 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
+
+function actualizarDD(valor,id) { // Actualiza el texto del botón-dropdown
+      document.getElementById(id).textContent = valor;
+}
+    
