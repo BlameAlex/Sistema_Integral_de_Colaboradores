@@ -4,6 +4,7 @@ namespace sic.Controllers
 {
   public class IntegracionController : Controller
   {
+    [HttpGet]
     public IActionResult Inicio() => View();
     public IActionResult DatosGenerales() => View();
     public IActionResult FormacionAcademica() => View();
@@ -14,22 +15,22 @@ namespace sic.Controllers
     public IActionResult AvisoPrivacidad() => View();
 
     [HttpPost] //SHIT AINT WORKING
-    public IActionResult DatosGenerales(string args) {
+    public IActionResult DatosGeneralesPost(string args) {
       return RedirectToAction("FormacionAcademica", "Integracion");
     }
-    public IActionResult FormacionAcademica(string args) {
+    public IActionResult FormacionAcademicaPost(string args) {
       return RedirectToAction("ExperienciaLaboral", "Integracion");
     }
-    public IActionResult ExperienciaLaboral(string args) {
+    public IActionResult ExperienciaLaboralPost(string args) {
       return RedirectToAction("ExperienciaDocente", "Integracion");
     }
-    public IActionResult ExperienciaDocente(string args) {
+    public IActionResult ExperienciaDocentePost(string args) {
       return RedirectToAction("Conocimientos", "Integracion");
     }
-    public IActionResult Conocimientos(string args) {
+    public IActionResult ConocimientosPost(string args) {
       return RedirectToAction("OtrosDatos", "Integracion");
     }
-    public IActionResult OtrosDatos(string args) {
+    public IActionResult OtrosDatosPost(string args) {
       return RedirectToAction("AvisoPrivacidad", "Integracion");
     }
   } 
