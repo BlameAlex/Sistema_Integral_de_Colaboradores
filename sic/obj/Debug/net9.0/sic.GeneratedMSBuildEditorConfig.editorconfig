@@ -9,73 +9,73 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = sic
 build_property.RootNamespace = sic
-build_property.ProjectDir = C:\Users\hp\Documents\Sistema_Integral_de_Colaboradores\sic\
+build_property.ProjectDir = C:\Users\alex\Downloads\visual\Sistema_Integral_de_Colaboradores\sic\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\hp\Documents\Sistema_Integral_de_Colaboradores\sic
+build_property.MSBuildProjectDirectory = C:\Users\alex\Downloads\visual\Sistema_Integral_de_Colaboradores\sic
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/hp/Documents/Sistema_Integral_de_Colaboradores/sic/Views/Auth/LogIn.cshtml]
+[C:/Users/alex/Downloads/visual/Sistema_Integral_de_Colaboradores/sic/Views/Auth/LogIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dJbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/Documents/Sistema_Integral_de_Colaboradores/sic/Views/Integracion/AvisoPrivacidad.cshtml]
+[C:/Users/alex/Downloads/visual/Sistema_Integral_de_Colaboradores/sic/Views/Integracion/AvisoPrivacidad.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZWdyYWNpb25cQXZpc29Qcml2YWNpZGFkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/Documents/Sistema_Integral_de_Colaboradores/sic/Views/Integracion/Conocimientos.cshtml]
+[C:/Users/alex/Downloads/visual/Sistema_Integral_de_Colaboradores/sic/Views/Integracion/Conocimientos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZWdyYWNpb25cQ29ub2NpbWllbnRvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/Documents/Sistema_Integral_de_Colaboradores/sic/Views/Integracion/DatosGenerales.cshtml]
+[C:/Users/alex/Downloads/visual/Sistema_Integral_de_Colaboradores/sic/Views/Integracion/DatosGenerales.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZWdyYWNpb25cRGF0b3NHZW5lcmFsZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/Documents/Sistema_Integral_de_Colaboradores/sic/Views/Integracion/ExperienciaDocente.cshtml]
+[C:/Users/alex/Downloads/visual/Sistema_Integral_de_Colaboradores/sic/Views/Integracion/ExperienciaDocente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZWdyYWNpb25cRXhwZXJpZW5jaWFEb2NlbnRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/Documents/Sistema_Integral_de_Colaboradores/sic/Views/Integracion/ExperienciaLaboral.cshtml]
+[C:/Users/alex/Downloads/visual/Sistema_Integral_de_Colaboradores/sic/Views/Integracion/ExperienciaLaboral.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZWdyYWNpb25cRXhwZXJpZW5jaWFMYWJvcmFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/Documents/Sistema_Integral_de_Colaboradores/sic/Views/Integracion/FormacionAcademica.cshtml]
+[C:/Users/alex/Downloads/visual/Sistema_Integral_de_Colaboradores/sic/Views/Integracion/FormacionAcademica.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZWdyYWNpb25cRm9ybWFjaW9uQWNhZGVtaWNhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/Documents/Sistema_Integral_de_Colaboradores/sic/Views/Integracion/Inicio.cshtml]
+[C:/Users/alex/Downloads/visual/Sistema_Integral_de_Colaboradores/sic/Views/Integracion/Inicio.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZWdyYWNpb25cSW5pY2lvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/Documents/Sistema_Integral_de_Colaboradores/sic/Views/Integracion/OtrosDatos.cshtml]
+[C:/Users/alex/Downloads/visual/Sistema_Integral_de_Colaboradores/sic/Views/Integracion/OtrosDatos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZWdyYWNpb25cT3Ryb3NEYXRvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/Documents/Sistema_Integral_de_Colaboradores/sic/Views/Shared/Error.cshtml]
+[C:/Users/alex/Downloads/visual/Sistema_Integral_de_Colaboradores/sic/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/Documents/Sistema_Integral_de_Colaboradores/sic/Views/Shared/_LayoutIntegracion.cshtml]
+[C:/Users/alex/Downloads/visual/Sistema_Integral_de_Colaboradores/sic/Views/Shared/_LayoutIntegracion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRJbnRlZ3JhY2lvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/Documents/Sistema_Integral_de_Colaboradores/sic/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/alex/Downloads/visual/Sistema_Integral_de_Colaboradores/sic/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/Documents/Sistema_Integral_de_Colaboradores/sic/Views/_ViewImports.cshtml]
+[C:/Users/alex/Downloads/visual/Sistema_Integral_de_Colaboradores/sic/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/Documents/Sistema_Integral_de_Colaboradores/sic/Views/_ViewStart.cshtml]
+[C:/Users/alex/Downloads/visual/Sistema_Integral_de_Colaboradores/sic/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/Documents/Sistema_Integral_de_Colaboradores/sic/Views/Shared/_Layout.cshtml]
+[C:/Users/alex/Downloads/visual/Sistema_Integral_de_Colaboradores/sic/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-0q51olnkw8

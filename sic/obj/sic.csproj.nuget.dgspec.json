@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Documents\\Sistema_Integral_de_Colaboradores\\sic\\sic.csproj": {}
+    "C:\\Users\\alex\\Downloads\\visual\\Sistema_Integral_de_Colaboradores\\sic\\sic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Documents\\Sistema_Integral_de_Colaboradores\\sic\\sic.csproj": {
+    "C:\\Users\\alex\\Downloads\\visual\\Sistema_Integral_de_Colaboradores\\sic\\sic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Documents\\Sistema_Integral_de_Colaboradores\\sic\\sic.csproj",
+        "projectUniqueName": "C:\\Users\\alex\\Downloads\\visual\\Sistema_Integral_de_Colaboradores\\sic\\sic.csproj",
         "projectName": "sic",
-        "projectPath": "C:\\Users\\hp\\Documents\\Sistema_Integral_de_Colaboradores\\sic\\sic.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Documents\\Sistema_Integral_de_Colaboradores\\sic\\obj\\",
+        "projectPath": "C:\\Users\\alex\\Downloads\\visual\\Sistema_Integral_de_Colaboradores\\sic\\sic.csproj",
+        "packagesPath": "C:\\Users\\alex\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alex\\Downloads\\visual\\Sistema_Integral_de_Colaboradores\\sic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\software\\VS_TOOLS\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
