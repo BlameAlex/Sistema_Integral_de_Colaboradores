@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sistema Integral de Colaboradores | Log In</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="icon" href="../assets/SIC_cube.png" type="image/png">
+</head>
+<body class="bg-dark text-white">
+<div 
+  class="min-vh-100 d-flex align-items-center justify-content-center"
+  style="background: url('../assets/bg-login.jpeg') 
+         no-repeat center center fixed; background-size: cover;
+         background-color: rgba(0, 0, 0, 0.4);
+         background-blend-mode: overlay;"
+>
+  <div class="col-lg-4 justify-content-center align-items-center">
+    <div class="shadow-lg p-4 rounded" style="width: 100%; background-color: rgba(0, 42, 35, 0.80);">
+      <img src="../assets/SIC_cube.png" alt="Logo" class="mb-5 mt-3" style="max-width: 150px; display: block; margin: auto;">
+      <form class="d-grid gap-3 align-items-middle">
+        <div class="form-group">
+          <input type="text" id="username" name="username" class="form-control h-75" placeholder="Usuario" required>
+        </div>
+        <div class="form-group">
+          <input type="password" id="password" name="password" class="form-control h-75" placeholder="Contraseña" required>
+        </div>
+        <div class="d-flex justify-content-center align-items-center h-75">
+          <button type="submit" class="btn btn-primary w-50">Log In</button>
+        </div>
+      </form>  
+    </div>
+  </div>
+
+  <script src="../public/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
