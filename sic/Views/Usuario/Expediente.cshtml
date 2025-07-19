@@ -1,0 +1,107 @@
+@{
+    ViewData["Title"] = "Expediente";
+    Layout = "_LayoutUsuario";
+    ViewBag.ActivePage = "Expediente";
+}
+
+<div id="mainContent" class="container-fluid">
+  <div class="d-flex justify-content-between align-items-center mt-4">
+    <h1 class="text-success">DOCUMENTOS CARGADOS</h1>
+    <a href="#" class="text-muted"><i class="fas fa-sign-out-alt"></i> Cerrar Sesión</a>
+  </div>
+
+  <!-- Tabla de documentos -->
+  <div class="table-responsive mt-4">
+    <table class="table table-bordered align-middle text-center">
+      <thead class="table-light">
+        <tr>
+          <th>NOMBRE</th>
+          <th>TIPO</th>
+          <th>ESTADO</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>CURP</td>
+          <td>INFORMACIÓN PERSONAL</td>
+          <td class="text-success fw-bold">ACTUALIZADO</td>
+          <td>
+            <button class="icon-btn"><i class="fas fa-sync-alt"></i></button>
+            <button class="icon-btn"><i class="fas fa-trash-alt"></i></button>
+            <button class="icon-btn"><i class="fas fa-download"></i></button>
+          </td>
+        </tr>
+        <tr>
+          <td>RFC</td>
+          <td>INFORMACIÓN PERSONAL</td>
+          <td class="text-success fw-bold">ACTUALIZADO</td>
+          <td>
+            <button class="icon-btn"><i class="fas fa-sync-alt"></i></button>
+            <button class="icon-btn"><i class="fas fa-trash-alt"></i></button>
+            <button class="icon-btn"><i class="fas fa-download"></i></button>
+          </td>
+        </tr>
+        <tr>
+          <td>ACTA NACIMIENTO</td>
+          <td>INFORMACIÓN PERSONAL</td>
+          <td class="text-warning fw-bold">PENDIENTE</td>
+          <td>
+            <button class="icon-btn"><i class="fas fa-sync-alt"></i></button>
+            <button class="icon-btn"><i class="fas fa-trash-alt"></i></button>
+            <button class="icon-btn"><i class="fas fa-download"></i></button>
+          </td>
+        </tr>
+        <tr>
+          <td>MATEMÁTICAS IV</td>
+          <td>CURSO</td>
+          <td class="text-danger fw-bold">VENCIDO</td>
+          <td>
+            <button class="icon-btn"><i class="fas fa-sync-alt"></i></button>
+            <button class="icon-btn"><i class="fas fa-trash-alt"></i></button>
+            <button class="icon-btn"><i class="fas fa-download"></i></button>
+          </td>
+        </tr>
+        <tr>
+          <td>COMPROBANTE DOMICILIO</td>
+          <td>INFORMACIÓN PERSONAL</td>
+          <td class="text-success fw-bold">ACTUALIZADO</td>
+          <td>
+            <button class="icon-btn"><i class="fas fa-sync-alt"></i></button>
+            <button class="icon-btn"><i class="fas fa-trash-alt"></i></button>
+            <button class="icon-btn"><i class="fas fa-download"></i></button>
+          </td>
+        </tr>
+        <tr>
+          <td>MATEMÁTICAS III</td>
+          <td>CURSO</td>
+          <td class="text-danger fw-bold">VENCIDO</td>
+          <td>
+            <button class="icon-btn"><i class="fas fa-sync-alt"></i></button>
+            <button class="icon-btn"><i class="fas fa-trash-alt"></i></button>
+            <button class="icon-btn"><i class="fas fa-download"></i></button>
+          </td>
+        </tr>
+        <tr>
+          <td>CERTIFICADO DE INGLÉS</td>
+          <td>INFORMACIÓN PERSONAL</td>
+          <td class="text-warning fw-bold">PENDIENTE</td>
+          <td>
+            <button class="icon-btn"><i class="fas fa-sync-alt"></i></button>
+            <button class="icon-btn"><i class="fas fa-trash-alt"></i></button>
+            <button class="icon-btn"><i class="fas fa-download"></i></button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Paginación -->
+  <div class="d-flex justify-content-between align-items-center mt-3">
+    <div class="px-3 py-2 bg-secondary text-white rounded">Mostrando 1-7 de 14</div>
+    <div>
+      <button class="btn btn-success me-2">Anterior</button>
+      <button class="btn btn-success">Siguiente</button>
+    </div>
+  </div>
+</div>

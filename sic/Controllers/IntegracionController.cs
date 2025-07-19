@@ -15,23 +15,33 @@ namespace sic.Controllers
     public IActionResult AvisoPrivacidad() => View();
 
     [HttpPost] //SHIT AINT WORKING
-    public IActionResult DatosGeneralesPost(string args) {
+    public IActionResult DatosGeneralesPost(string args)
+    {
       return RedirectToAction("FormacionAcademica", "Integracion");
     }
-    public IActionResult FormacionAcademicaPost(string args) {
+    public IActionResult FormacionAcademicaPost(string args)
+    {
       return RedirectToAction("ExperienciaLaboral", "Integracion");
     }
-    public IActionResult ExperienciaLaboralPost(string args) {
+    public IActionResult ExperienciaLaboralPost(string args)
+    {
       return RedirectToAction("ExperienciaDocente", "Integracion");
     }
-    public IActionResult ExperienciaDocentePost(string args) {
+    public IActionResult ExperienciaDocentePost(string args)
+    {
       return RedirectToAction("Conocimientos", "Integracion");
     }
-    public IActionResult ConocimientosPost(string args) {
+    public IActionResult ConocimientosPost(string args)
+    {
       return RedirectToAction("OtrosDatos", "Integracion");
     }
-    public IActionResult OtrosDatosPost(string args) {
+    public IActionResult OtrosDatosPost(string args)
+    {
       return RedirectToAction("AvisoPrivacidad", "Integracion");
+    }
+    public IActionResult AvisoPrivacidadPost(string args)
+    {
+      return RedirectToAction("Dashboard", "Usuario");
     }
   } 
 }

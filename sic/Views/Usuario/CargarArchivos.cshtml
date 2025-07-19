@@ -1,0 +1,71 @@
+@{
+    ViewData["Title"] = "Cargar Archivos";
+    Layout = "_LayoutUsuario";
+    ViewBag.ActivePage = "CargarArchivos";
+}
+
+<div id="mainContent" class="container-fluid">
+  <div class="d-flex justify-content-between align-items-center mt-4">
+    <h1 class="text-success">CARGAR ARCHIVOS</h1>
+    <a href="#" class="text-muted"><i class="fas fa-sign-out-alt"></i> Cerrar Sesión</a>
+  </div>
+
+  <form class="mt-4">
+    <!-- Zona de carga y exploración -->
+    <div class="row align-items-center mb-3">
+      <div class="col-md-6 mb-2">
+        <div class="border text-center py-4" style="border-width: 2px;">
+          ARRASTRA AQUÍ
+        </div>
+      </div>
+      <div class="col-md-1 text-center fw-bold">
+        ó
+      </div>
+      <div class="col-md-5 mb-2">
+        <button type="button" class="btn btn-success w-100 py-3">EXPLORA TU DISPOSITIVO</button>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Nombre del documento y fecha -->
+    <div class="row mb-3">
+      <div class="col-md-6">
+        <label for="nombreDocumento" class="form-label">Nombre del Documento</label>
+        <input type="text" id="nombreDocumento" class="form-control" placeholder="Mi_Documento">
+      </div>
+      <div class="col-md-6">
+        <label for="fechaExpedicion" class="form-label">Fecha de expedición</label>
+        <input type="text" id="fechaExpedicion" class="form-control" placeholder="DD/MM/AAAA">
+      </div>
+    </div>
+
+    <!-- Categoría -->
+    <div class="row mb-3">
+      <div class="col-md-6">
+        <label for="categoria" class="form-label">Categoría</label>
+        <select id="categoria" class="form-select">
+          <option selected>Seleccionar</option>
+          <option>Información Personal</option>
+          <option>Curso</option>
+          <option>Certificación</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Comentario -->
+    <div class="row mb-4">
+      <div class="col-12">
+        <label for="comentario" class="form-label">Comentario</label>
+        <textarea id="comentario" rows="5" class="form-control" placeholder="Leeremos esto antes de aprobar tu carga"></textarea>
+      </div>
+    </div>
+
+    <!-- Botón subir -->
+    <div class="text-center">
+      <button type="submit" class="btn btn-success px-5">
+        <i class="fas fa-upload me-2"></i> Cargar Archivo
+      </button>
+    </div>
+  </form>
+</div>

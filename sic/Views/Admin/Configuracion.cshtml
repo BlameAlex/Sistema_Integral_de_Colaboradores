@@ -1,0 +1,33 @@
+@{
+    ViewData["Title"] = "Configuración";
+    ViewBag.ActivePage = "Configuracion";
+    Layout = "_LayoutAdmin";
+}
+
+<main class="container pt-4" id="mainContent">
+  <h2 class="text-center fw-bold text-success">CONFIGURACIÓN</h2>
+
+  <div class="mb-3">
+    <button class="btn btn-link text-dark text-start" type="button" data-bs-toggle="collapse" data-bs-target="#formCambiarContrasena" aria-expanded="false" aria-controls="formCambiarContrasena">
+    <i class="bi bi-chevron-down me-2"></i> Cambiar Contraseña
+    </button>
+  </div>
+
+  <div class="collapse" id="formCambiarContrasena">
+    <form>
+    <div class="mb-3">
+      <label for="actual" class="form-label">Contraseña actual</label>
+      <input type="password" class="form-control" id="actual" placeholder="Contraseña">
+    </div>
+
+    <div class="mb-3">
+      <label for="nueva" class="form-label">Nueva contraseña</label>
+      <input type="password" class="form-control" id="nueva" placeholder="Contraseña">
+    </div>
+
+    <div class="text-center">
+      <button type="submit" class="btn btn-success px-4">Cambiar</button>
+    </div>
+    </form>
+  </div>
+</main>

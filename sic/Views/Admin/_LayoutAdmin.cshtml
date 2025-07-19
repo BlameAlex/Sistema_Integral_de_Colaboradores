@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>@ViewData["Title"]</title>
+  <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+  <link rel="stylesheet" href="~/sic.styles.css" asp-append-version="true" />
+  <link rel="icon" href="~/images/SIC_cube.png" type="image/png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
+</head>
+<body class="light-mode">
+<!-- Botón de menú -->
+  <nav class="navbar bg-body-tertiary px-3">
+    <button class="btn btn-outline-dark " id="toggleMenu"><i class="bi bi-list"></i></button>
+    <h5 class="ms-3 mb-0 fw-bold text-success">BIENVENIDO</h5>
+    <button class="btn btn-outline-dark ms-auto" id="toggleMode"><i class="bi bi-moon-stars-fill"></i></button>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+      
+      <nav class="col-md-2 sidebar p-3" id="sidebarMenu">
+          <ul class="nav nav-pills flex-column">
+              <li class="nav-item">
+                <a class="nav-link @(ViewBag.ActivePage == "Dashboard" ? "active" : "")" href="@Url.Action("Dashboard", "Admin")">
+                  <i class="bi bi-house-door"></i> Dashboard
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link @(ViewBag.ActivePage == "Busqueda" ? "active" : "")" href="@Url.Action("Busqueda", "Admin")">
+                  <i class="bi bi-search"></i> Busqueda
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link @(ViewBag.ActivePage == "CargasPendientes" ? "active" : "")" href="@Url.Action("CargasPendientes", "Admin")">
+                  <i class="bi bi-upload"></i> Cargas Pendientes
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link @(ViewBag.ActivePage == "Notificaciones" ? "active" : "")" href="@Url.Action("Notificaciones", "Admin")">
+                  <i class="bi bi-bell"></i> Notificaciones
+                </a>
+              </li>
+              <li class="nav-item"></li>
+                <a class="nav-link @(ViewBag.ActivePage == "NuevoUsuario" ? "active" : "")" href="@Url.Action("NuevoUsuario", "Admin")">
+                  <i class="bi bi-person-plus"></i> Nuevo Usuario
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link @(ViewBag.ActivePage == "Configuracion" ? "active" : "")" href="@Url.Action("Configuracion", "Admin")">
+                  <i class="bi bi-gear"></i> Configuracion
+                </a>
+              </li>
+          </ul>
+        </nav>
+
+      @RenderBody()
+
+    </div>
+  </div>   
+</body>

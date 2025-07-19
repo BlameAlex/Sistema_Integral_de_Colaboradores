@@ -1,0 +1,47 @@
+@{
+    ViewData["Title"] = "Dashboard Admin";
+    ViewBag.ActivePage = "Dashboard";
+    Layout = "_LayoutAdmin";
+}
+
+<div class="col-md-10 p-4" id="mainContent">
+  <h1>Dashboard</h1>
+  
+  <div class="table-responsive">
+    <table class="table table-bordered text-center table-hover table-striped">
+      <thead>
+        <tr><th colspan="4">ALERTAS RECIENTES</th></tr>
+        <tr>
+          <th>NOMBRE</th>
+          <th>DOCUMENTO</th>
+          <th>ESTADO</th>
+          <th>ACCIONES</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>JUAN DANIEL LOPEZ MORALES</td><td>ACTA NACIMIENTO</td><td>PENDIENTE</td>
+          <td>
+            <button class="icon-btn"><i class="bi bi-info-circle"></i></button>
+            <button class="icon-btn"><i class="bi bi-eye"></i></button>
+            <button class="icon-btn"><i class="bi bi-eye-slash"></i></button>
+          </td>
+        </tr>
+        <tr><td>PEDRO</td><td>COMPROBANTE DOMICILIO</td><td>PENDIENTE</td><td>...</td></tr>
+        <tr><td>RONALDO</td><td>RFC</td><td>PENDIENTE</td><td>...</td></tr>
+        <tr><td>MARIO</td><td>INE</td><td>PENDIENTE</td><td>...</td></tr>
+        <tr><td>GUILLERMO</td><td>CURP</td><td>VENCIDO</td><td>...</td></tr>
+        <tr><td>BOB</td><td>CURP</td><td>VENCIDO</td><td>...</td></tr>
+        <tr><td>OLGA</td><td>CURP</td><td>VENCIDO</td><td>...</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="d-flex justify-content-between">
+    <button class="btn btn-secondary">Mostrando 1-7 de 20</button>
+    <div>
+      <button class="btn btn-success me-2">Anterior</button>
+      <button class="btn btn-success">Siguiente</button>
+    </div>
+  </div>
+</div>

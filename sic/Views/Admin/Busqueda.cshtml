@@ -1,0 +1,41 @@
+@{
+    ViewData["Title"] = "Búsqueda";
+    ViewBag.ActivePage = "Busqueda";
+    Layout = "_LayoutAdmin";
+}
+<div class="col-md-10 p-4" id="mainContent">
+  <h1>Busqueda</h1>
+  <form action="#" method="get" class="search-button">
+    <input type="search" id="search-input" name="q" placeholder="Buscar...">
+    <button type="submit">Buscar</button>
+  </form>
+  <div class="table-responsive">
+    <table class="table table-bordered text-center table-hover table-striped">
+      <thead>
+      <tr>
+          <th>ID</th>
+          <th>NOMBRE</th>
+          <th>CARGO</th>
+          <th>CORREO</th>
+          <th>RESUMEN</th>
+      </tr>
+      </thead>
+      <tbody>
+          <td>Dato 1</td>
+          <td>Dato 2</td>
+          <td>Dato 3</td>
+          <td>Dato 4</td>
+          <td>Dato 5</td>
+        
+      </tbody>
+    </table>
+  </div>
+
+  <div class="d-flex justify-content-between">
+    <button class="btn btn-secondary">Mostrando 1-7 de 20</button>
+    <div>
+      <button class="btn btn-success me-2">Anterior</button>
+      <button class="btn btn-success">Siguiente</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,39 @@
+@{
+    ViewData["Title"] = "Dashboard";
+    Layout = "_LayoutUsuario";
+    ViewBag.ActivePage = "Dashboard";
+}
+
+<div id="mainContent" class="container-fluid">
+  <div class="d-flex justify-content-between align-items-center mt-4">
+    <h1 class="text-success">DASHBOARD</h1>
+    <a href="#" class="text-muted"><i class="fas fa-sign-out-alt"></i> Cerrar Sesión</a>
+  </div>
+
+  <!-- Perfil del usuario -->
+  <div class="row align-items-center mt-5">
+    <!-- Icono -->
+    <div class="col-md-2 text-center">
+      <div class="rounded-circle border" style="width: 140px; height: 140px; display: flex; align-items: center; justify-content: center;">
+        <i class="fas fa-user-circle" style="font-size: 120px; color: #009688;"></i>
+      </div>
+    </div>
+
+    <!-- Nombre y cargo -->
+    <div class="col-md-10">
+      <h3 class="text-success mb-0">JUAN DANIEL LOPEZ MORALES</h3>
+      <h4 class="fw-bold text-secondary">DOCENTE</h4>
+      <hr>
+    </div>
+  </div>
+
+  <!-- Cuadro de texto -->
+  <div class="row mt-4">
+    <div class="col-12">
+      <div class="border p-3" style="min-height: 300px;">
+        BLA BLA BLA
+      </div>
+    </div>
+  </div>
+</div>
+

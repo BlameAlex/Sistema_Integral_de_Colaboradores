@@ -1,0 +1,79 @@
+@{
+    ViewData["Title"] = "Notificaciones";
+    Layout = "_LayoutUsuario";
+    ViewBag.ActivePage = "Notificaciones";
+}
+
+<div id="mainContent" class="container-fluid">
+  <div class="d-flex justify-content-between align-items-center mt-4">
+    <h1 class="text-success">NOTIFICACIONES</h1>
+    <a href="#" class="text-muted"><i class="fas fa-sign-out-alt"></i> Cerrar Sesión</a>
+  </div>
+
+  <!-- Tabla de notificaciones -->
+  <div class="table-responsive mt-4">
+    <table class="table table-bordered text-center align-middle">
+      <thead class="table-light">
+        <tr>
+          <th>INDICADOR</th>
+          <th>ASUNTO</th>
+          <th>FECHA</th>
+          <th>REMITENTE</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="badge bg-warning text-dark fs-5">!</span></td>
+          <td>“CURP” se ha aprobado, gracias</td>
+          <td>11/06/2025</td>
+          <td>Recursos Humanos</td>
+        </tr>
+        <tr>
+          <td><span class="badge bg-warning text-dark fs-5">!</span></td>
+          <td>“RFC” se ha aprobado, gracias</td>
+          <td>7/06/2025</td>
+          <td>Recursos Humanos</td>
+        </tr>
+        <tr>
+          <td><span class="badge bg-warning text-dark fs-5">!</span></td>
+          <td>Está pendiente que cargues “ACTA NACIMIENTO”, por favor cárgalo</td>
+          <td>1/06/2025</td>
+          <td>Recursos Humanos</td>
+        </tr>
+        <tr>
+          <td><span class="border rounded-circle d-inline-block" style="width: 20px; height: 20px;"></span></td>
+          <td>Tu curso “Matemáticas IV” ha vencido, actualízalo</td>
+          <td>30/05/2025</td>
+          <td>Recursos Humanos</td>
+        </tr>
+        <tr>
+          <td><span class="border rounded-circle d-inline-block" style="width: 20px; height: 20px;"></span></td>
+          <td>“COMPROBANTE DOMICILIO” se ha aprobado, gracias</td>
+          <td>22/05/2025</td>
+          <td>Recursos Humanos</td>
+        </tr>
+        <tr>
+          <td><span class="border rounded-circle d-inline-block" style="width: 20px; height: 20px;"></span></td>
+          <td>Tu curso “Matemáticas III” ha vencido, actualízalo</td>
+          <td>20/05/2025</td>
+          <td>Recursos Humanos</td>
+        </tr>
+        <tr>
+          <td><span class="border rounded-circle d-inline-block" style="width: 20px; height: 20px;"></span></td>
+          <td>Está pendiente que cargues “CERTIFICADO DE INGLÉS”, por favor cárgalo</td>
+          <td>14/05/2025</td>
+          <td>Recursos Humanos</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Paginación -->
+  <div class="d-flex justify-content-between align-items-center mt-3">
+    <div class="px-3 py-2 bg-secondary text-white rounded">Mostrando 1-7 de 14</div>
+    <div>
+      <button class="btn btn-success me-2">Anterior</button>
+      <button class="btn btn-success">Siguiente</button>
+    </div>
+  </div>
+</div>

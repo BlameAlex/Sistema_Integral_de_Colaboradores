@@ -249,5 +249,5 @@ C:\Users\hp\Documents\Sistema_Integral_de_Colaboradores\sic\obj\Debug\net9.0\sic
 C:\Users\hp\Documents\Sistema_Integral_de_Colaboradores\sic\obj\Debug\net9.0\sic.genruntimeconfig.cache
 C:\Users\hp\Documents\Sistema_Integral_de_Colaboradores\sic\obj\Debug\net9.0\ref\sic.dll
 C:\Users\hp\Documents\Sistema_Integral_de_Colaboradores\sic\obj\Debug\net9.0\compressed\0s8ode3bco-qkcyhrhui8.gz
-C:\Users\hp\Documents\Sistema_Integral_de_Colaboradores\sic\obj\Debug\net9.0\compressed\m1wz1wctn0-6ovqig5pkj.gz
 C:\Users\hp\Documents\Sistema_Integral_de_Colaboradores\sic\obj\Debug\net9.0\compressed\ur6xbyekws-x1gjx32g5f.gz
+C:\Users\hp\Documents\Sistema_Integral_de_Colaboradores\sic\obj\Debug\net9.0\compressed\m1wz1wctn0-fid85s1674.gz
